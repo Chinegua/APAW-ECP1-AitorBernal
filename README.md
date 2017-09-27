@@ -4,4 +4,4 @@
 
 Aplicar patrones al siguiente caso 
 
-![Sin Titulo](./img/img1.jpg)
+![Sin Titulo](https://github.com/Chinegua/ECP1/blob/master/img/img1.png)
