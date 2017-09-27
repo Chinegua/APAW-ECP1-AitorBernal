@@ -7,11 +7,11 @@ public class Doctor {
 	private int id;
 	private String speciality;
 	private double cost;
-	private ArrayList<Appointmen> ApoimentList;
+	private ArrayList<Appointmen> apoimentList;
 	private Level level;
 
 	public Doctor(int id, String speciality) {
-		ApoimentList = new ArrayList<Appointmen>();
+		apoimentList = new ArrayList<>();
 		this.id = id;
 		this.speciality = speciality;
 	}
@@ -42,11 +42,11 @@ public class Doctor {
 	}
 
 	public ArrayList<Appointmen> getApoimentList() {
-		return ApoimentList;
+		return apoimentList;
 	}
 
 	public void setApoimentList(ArrayList<Appointmen> apoimentList) {
-		ApoimentList = apoimentList;
+		this.apoimentList = apoimentList;
 	}
 
 	public Level getLevel() {
@@ -58,7 +58,7 @@ public class Doctor {
 	}
 	
 	public void addApoiment(Appointmen appointmen){
-		ApoimentList.add(appointmen);
+		apoimentList.add(appointmen);
 		
 	}
 
