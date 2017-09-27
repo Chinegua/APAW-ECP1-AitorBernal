@@ -4,4 +4,4 @@
 
 Aplicar patrones al siguiente caso 
 
-![](img/img1.jpg)
+![Sin Titulo](./img/img1.jpg)
