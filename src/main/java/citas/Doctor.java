@@ -45,10 +45,6 @@ public class Doctor {
 		return apoimentList;
 	}
 
-	public void setApoimentList(ArrayList<Appointmen> apoimentList) {
-		this.apoimentList = apoimentList;
-	}
-
 	public Level getLevel() {
 		return level;
 	}
@@ -56,10 +52,10 @@ public class Doctor {
 	public void setLevel(Level level) {
 		this.level = level;
 	}
-	
-	public void addApoiment(Appointmen appointmen){
+
+	public void addApoiment(Appointmen appointmen) {
 		apoimentList.add(appointmen);
-		
+
 	}
 
 }
