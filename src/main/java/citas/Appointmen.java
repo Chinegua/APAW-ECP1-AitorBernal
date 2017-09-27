@@ -8,6 +8,7 @@ public class Appointmen {
 	private Calendar calendar;
 
 	public Appointmen(int id, String patient, Calendar calendar) {
+		assert id > 0;
 		this.setId(id);
 		this.setPatient(patient);
 		this.setCalendar(calendar);
