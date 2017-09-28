@@ -1,5 +1,6 @@
 package citas;
 
+import java.util.List;
 import java.util.ArrayList;
 
 public class Doctor {
@@ -7,7 +8,7 @@ public class Doctor {
 	private int id;
 	private String speciality;
 	private double cost;
-	private ArrayList<Appointmen> apoimentList;
+	private List<Appointmen> apoimentList;
 	private Level level;
 
 	public Doctor(int id, String speciality) {
@@ -41,7 +42,7 @@ public class Doctor {
 		this.cost = cost;
 	}
 
-	public ArrayList<Appointmen> getApoimentList() {
+	public List<Appointmen> getApoimentList() {
 		return apoimentList;
 	}
 
