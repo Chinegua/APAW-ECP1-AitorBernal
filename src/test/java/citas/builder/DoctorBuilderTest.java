@@ -27,7 +27,7 @@ public class DoctorBuilderTest {
 
 	@Test
 	public void testAppointmen() {
-		Calendar calendar = Calendar.getInstance();;
+		Calendar calendar = Calendar.getInstance();
 		calendar.set(2004, 1, 7);
 		Appointmen appointmen;
 		appointmen = new Appointmen(1,"Pepe",calendar);
