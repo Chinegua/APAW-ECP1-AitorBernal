@@ -2,8 +2,6 @@ package citas;
 
 import static org.junit.Assert.*;
 
-
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import org.junit.Before;
