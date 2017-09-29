@@ -1,8 +1,5 @@
 package citas.builder;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import citas.Appointmen;
 import citas.Doctor;
 import citas.Level;
