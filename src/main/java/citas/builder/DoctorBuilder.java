@@ -10,7 +10,6 @@ import citas.Level;
 public class DoctorBuilder {
 
 
-		private List<Appointmen> appoimentList = new ArrayList<>();
 		private Doctor doctor;
 
 		public DoctorBuilder(int id, String speciality) {
