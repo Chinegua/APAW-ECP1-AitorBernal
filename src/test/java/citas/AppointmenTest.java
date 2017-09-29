@@ -9,7 +9,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class AppointmenTest {
-	SimpleDateFormat f = new SimpleDateFormat("dd-MM-yyyy");
 	public Calendar calendar = Calendar.getInstance();
 	public Calendar calendar2 = Calendar.getInstance();
 
