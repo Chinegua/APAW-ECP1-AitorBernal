@@ -15,28 +15,32 @@ public final class DoctorSingletonFactory {
 		this.doctorFactory = new HashMap<Integer, Doctor>();
 
 	}
-	public boolean getDoctor(Doctor doctor){
+
+	public boolean getDoctor(Doctor doctor) {
 		Integer doctorId = new Integer(doctor.getId());
 		return this.doctorFactory.get(doctorId) != null;
-		
+
 	}
-	
+
 	public void setDoctor(Doctor doctor) {
 		Integer doctorId = new Integer(doctor.getId());
-		if(this.doctorFactory.get(doctorId) == null){
+		if (this.doctorFactory.get(doctorId) == null) {
 			this.doctorFactory.put(doctorId, doctor);
-		}
-		else{
-	        throw new UnsupportedOperationException( "No se puede añadir el doctor a la factoria" );
+		} else {
+			throw new UnsupportedOperationException("No se puede añadir el doctor a la factoria");
 		}
 	}
-	
-	public void removeDoctor(String key){
+
+	public void removeDoctor(String key) {
 		this.doctorFactory.remove(key);
 	}
-	public int getDoctorFactorySize(){
+
+	public int getDoctorFactorySize() {
 		return doctorFactory.size();
 	}
-	
+
+	public static DoctorSingletonFactory getDoctorSingletonFactory() {
+		return doctorSingletonFactory;
+	}
 
 }
