@@ -2,6 +2,6 @@ package citas.composite;
 
 public abstract class DoctorComponent {
 	
-	abstract public String view();
+	public abstract String view();
 
 }
