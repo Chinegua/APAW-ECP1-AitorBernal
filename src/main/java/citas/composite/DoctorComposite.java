@@ -5,11 +5,10 @@ import java.util.List;
 
 public class DoctorComposite extends DoctorComponent{
 
-	private String name;
 	private List<DoctorComponent> doctorList;
 	
 	public DoctorComposite(DoctorComponent doctorComponent){
-		this.name = "DoctorComposite";
+		super.name = "DoctorComposite";
 		this.doctorList = new ArrayList<>();
 		this.add(doctorComponent);
 		
@@ -23,6 +22,6 @@ public class DoctorComposite extends DoctorComponent{
 
 	@Override
 	public String view() {
-		return name;
+		return super.name;
 	}
 }
