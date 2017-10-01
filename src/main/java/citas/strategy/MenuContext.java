@@ -5,25 +5,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MenuContext {
+	static final String CALDEROS_LIMPIOS = "Calderos limpios" ;
+	static final String FUEGO_ENCENDIDO = "Fuego encendido";
+	static final String EXTRACTOR_ACTIVADO = "Extractor activado";
+
 	private List<String> menu;
 
 	public MenuContext() {
-		menu = new ArrayList<String>();
+		menu = new ArrayList<>();
 	}
 	public List<String> getMenu(){
 		return this.menu;
 	}
 
 	public String fregarCalderos() {
-		return "Calderos limpios";
+		return CALDEROS_LIMPIOS;
 	}
 
 	public String encenderFuego() {
-		return "Fuego encendido";
+		return FUEGO_ENCENDIDO;
 	}
 	
 	public String activarExtractor(){
-		return "Extractor activado";
+		return EXTRACTOR_ACTIVADO;
 	}
 	public List<String> añadirPlato(EstrategiaDeReceta estrategiaDeReceta){
 		menu.add(estrategiaDeReceta.cocinar());
