@@ -29,7 +29,7 @@ public class MenuContext {
 	public String activarExtractor(){
 		return EXTRACTOR_ACTIVADO;
 	}
-	public List<String> añadirPlato(EstrategiaDeReceta estrategiaDeReceta){
+	public List<String> anadirPlato(EstrategiaDeReceta estrategiaDeReceta){
 		menu.add(estrategiaDeReceta.cocinar());
 		return menu;
 	}
