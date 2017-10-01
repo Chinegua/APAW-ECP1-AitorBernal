@@ -43,7 +43,7 @@ public class MenuContextTest {
 	@Test
 	public void testAñadirPlato() {
 		CroquetasConcreteStrategy croquetas= new CroquetasConcreteStrategy();
-		assertEquals(menuContext2.añadirPlato(croquetas), menuContext.añadirPlato(croquetas));
+		assertEquals(menuContext2.anadirPlato(croquetas), menuContext.anadirPlato(croquetas));
 
 	}
 
