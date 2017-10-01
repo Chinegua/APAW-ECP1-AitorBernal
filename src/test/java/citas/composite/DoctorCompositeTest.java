@@ -33,19 +33,5 @@ public class DoctorCompositeTest {
 	public void testViewLeaft() {
 		assertEquals("ID: 2",doctorLeaf.view());
 	}
-	@Test
-	public void testDoctorComposite() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testAdd() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testRemove() {
-		fail("Not yet implemented");
-	}
 
 }
