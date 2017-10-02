@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DoctorComposite extends DoctorComponent{
-
+	String name;
 	private List<DoctorComponent> doctorList;
 	
-	public DoctorComposite(DoctorComponent doctorComponent){
-		super.name = "DoctorComposite";
+	public DoctorComposite(String name, DoctorComponent doctorComponent){
+		this.name = name;
 		this.doctorList = new ArrayList<>();
 		this.add(doctorComponent);
 		
@@ -22,6 +22,6 @@ public class DoctorComposite extends DoctorComponent{
 
 	@Override
 	public String view() {
-		return super.name;
+		return this.name;
 	}
 }
